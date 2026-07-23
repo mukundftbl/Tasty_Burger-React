@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Cart() {
   const { cartItems, increaseItem, decreaseItem } = useContext(CartContext);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const getTotalPrice = () => {
     return cartItems
